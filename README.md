@@ -15,7 +15,7 @@ composer require shahmy/sri_lanka_administrative_boundaries
 After the package is installed, you need to publish the migration files to your `database/migrations` directory.
 
 ```bash
-php artisan vendor:publish --tag=sri-lanka-migrations
+php artisan vendor:publish --tag=sri-lanka-administrative-boundaries-migrations
 ```
 
 Next, you can run the migrations and seed the database with the provided data. You have two options for seeding:
