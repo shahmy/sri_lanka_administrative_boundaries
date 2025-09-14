@@ -22,7 +22,7 @@ class DivisionalSecretariatSeeder extends Seeder
                 'name_en' => $divisionalSecretariat['name_en'],
                 'name_si' => $divisionalSecretariat['name_si'],
                 'name_ta' => $divisionalSecretariat['name_ta'],
-                'district_id' => $divisionalSecretariat['sl_district_id']
+                'sl_district_id' => $divisionalSecretariat['sl_district_id']
                 ]);
         }
     }

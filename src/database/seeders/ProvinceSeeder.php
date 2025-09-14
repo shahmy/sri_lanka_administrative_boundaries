@@ -22,7 +22,7 @@ class ProvinceSeeder extends Seeder
                 'name_en' => $province['name_en'],
                 'name_si' => $province['name_si'],
                 'name_ta' => $province['name_ta'],
-                'country_id' => $province['sl_country_id']
+                'sl_country_id' => $province['sl_country_id']
             ]);
         }
     }
