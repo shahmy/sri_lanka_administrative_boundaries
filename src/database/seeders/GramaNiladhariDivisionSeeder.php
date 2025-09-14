@@ -21,7 +21,7 @@ class GramaNiladhariDivisionSeeder extends Seeder
                 'name_en' => $gnDivision['name_en'],
                 'name_si' => $gnDivision['name_si'],
                 'name_ta' => $gnDivision['name_ta'],
-                'divisional_secretariat_id' => $gnDivision['divisional_secretariat_id']
+                'divisional_secretariat_id' => $gnDivision['sl_divisional_secretariat_id']
             ]);
         }
     }

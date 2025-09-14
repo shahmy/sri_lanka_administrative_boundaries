@@ -23,7 +23,7 @@ class DistrictSeeder extends Seeder
                 'name_en' => $district['name_en'],
                 'name_si' => $district['name_si'],
                 'name_ta' => $district['name_ta'],
-                'province_id' => $district['province_id'],
+                'province_id' => $district['sl_province_id'],
             ]);
         }
     }
