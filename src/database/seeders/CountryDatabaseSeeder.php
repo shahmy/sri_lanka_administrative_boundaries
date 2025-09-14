@@ -27,6 +27,7 @@ class CountryDatabaseSeeder extends Seeder
                 'name_ta' => $country['name_ta'],
                 'code' => $country['code'],
                 'currency' => $country['currency'],
+                'phone_code' => $country['phone_code'],
                 'created_at' => Carbon::now(),
                 'updated_at' => null,
             ]);
