@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Western",
+        "country_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Central",
+        "country_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Southern",
+        "country_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Northern",
+        "country_id": 1
+    },
+    {
+        "id": 5,
+        "name": "Eastern",
+        "country_id": 1
+    },
+    {
+        "id": 6,
+        "name": "North Western",
+        "country_id": 1
+    },
+    {
+        "id": 7,
+        "name": "North Central",
+        "country_id": 1
+    },
+    {
+        "id": 8,
+        "name": "Uva",
+        "country_id": 1
+    },
+    {
+        "id": 9,
+        "name": "Sabaragamuwa",
+        "country_id": 1
+    }
+]

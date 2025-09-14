@@ -1,0 +1,18 @@
+{
+    "name": "shahmy/sri_lanka_administrative_boundaries",
+    "description": "A Laravel package for Sri Lankan administrative boundaries.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shahmy\\SriLankaAdministrativeBoundaries\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shahmy\\SriLankaAdministrativeBoundaries\\Providers\\SriLankaAdministrativeBoundariesServiceProvider"
+            ]
+        }
+    }
+}
