@@ -1,6 +1,6 @@
 <?php
 
-namespace Shahmy\SriLankaAdministrativeBoundaries\Src\Database\Seeders;
+namespace Shahmy\SriLankaAdministrativeBoundaries\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;

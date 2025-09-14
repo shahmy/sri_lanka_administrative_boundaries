@@ -16,7 +16,9 @@ return new class extends Migration
             $table->string('name_en')->index();
             $table->string('name_si')->nullable();
             $table->string('name_ta')->nullable();
-            $table->foreignId('divisional_secretariat_id')->constrained()->cascadeOnDelete();
+            $table->unsignedBigInteger('sl_divisional_secretariat_id');
+            $table->foreign('sl_divisional_secretariat_id', 'sl_gnd_sl_ds_id_foreign')->references('id')
+            ->on('sl_divisional_secretariats')->onDelete('cascade');
             $table->timestamps();
         });
     }
