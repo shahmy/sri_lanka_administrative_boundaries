@@ -4,6 +4,7 @@ namespace Shahmy\SriLankaAdministrativeBoundaries\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class ProvinceSeeder extends Seeder
 {
@@ -22,7 +23,9 @@ class ProvinceSeeder extends Seeder
                 'name_en' => $province['name_en'],
                 'name_si' => $province['name_si'],
                 'name_ta' => $province['name_ta'],
-                'sl_country_id' => $province['sl_country_id']
+                'sl_country_id' => $province['sl_country_id'],
+                'created_at' => Carbon::now(),
+                'updated_at' => null,
             ]);
         }
     }

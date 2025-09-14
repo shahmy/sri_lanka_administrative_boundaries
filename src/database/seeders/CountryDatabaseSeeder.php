@@ -4,6 +4,7 @@ namespace Shahmy\SriLankaAdministrativeBoundaries\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class CountryDatabaseSeeder extends Seeder
 {
@@ -26,7 +27,8 @@ class CountryDatabaseSeeder extends Seeder
                 'name_ta' => $country['name_ta'],
                 'code' => $country['code'],
                 'currency' => $country['currency'],
-                'phone_code' => $country['phone_code']
+                'created_at' => Carbon::now(),
+                'updated_at' => null,
             ]);
         }
     }

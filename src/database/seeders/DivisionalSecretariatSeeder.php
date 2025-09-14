@@ -4,6 +4,7 @@ namespace Shahmy\SriLankaAdministrativeBoundaries\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class DivisionalSecretariatSeeder extends Seeder
 {
@@ -22,7 +23,9 @@ class DivisionalSecretariatSeeder extends Seeder
                 'name_en' => $divisionalSecretariat['name_en'],
                 'name_si' => $divisionalSecretariat['name_si'],
                 'name_ta' => $divisionalSecretariat['name_ta'],
-                'sl_district_id' => $divisionalSecretariat['sl_district_id']
+                'sl_district_id' => $divisionalSecretariat['sl_district_id'],
+                'created_at' => Carbon::now(),
+                'updated_at' => null,
                 ]);
         }
     }

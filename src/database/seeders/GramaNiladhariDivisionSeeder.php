@@ -4,6 +4,7 @@ namespace Shahmy\SriLankaAdministrativeBoundaries\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 class GramaNiladhariDivisionSeeder extends Seeder
 {
@@ -21,7 +22,9 @@ class GramaNiladhariDivisionSeeder extends Seeder
                 'name_en' => $gnDivision['name_en'],
                 'name_si' => $gnDivision['name_si'],
                 'name_ta' => $gnDivision['name_ta'],
-                'sl_divisional_secretariat_id' => $gnDivision['sl_divisional_secretariat_id']
+                'sl_divisional_secretariat_id' => $gnDivision['sl_divisional_secretariat_id'],
+                'created_at' => Carbon::now(),
+                'updated_at' => null,
             ]);
         }
     }
