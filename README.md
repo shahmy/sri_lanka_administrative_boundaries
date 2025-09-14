@@ -56,7 +56,7 @@ php artisan migrate --seed
 If you have already run your migrations and only need to seed the data from this package, you can run the following command directly:
 
 ```bash
-php artisan db:seed --class=SriLankaAdministrativeBoundariesSeeder
+php artisan db:seed --class=Shahmy\SriLankaAdministrativeBoundaries\database\seeders\SriLankaAdministrativeBoundariesSeeder
 ```
 
 -----
